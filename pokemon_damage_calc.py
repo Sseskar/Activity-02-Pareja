@@ -16,9 +16,12 @@ rand = random.uniform(0.85, 1)
 stab = 1.5
 type = 0.5
 burn = 1
+
+#Formula
 modifier = (targets*weather*badge*critical*rand*stab*type*burn*1)
 damage = ((((((2 * level / 5) + 2) * power) * (a / d))) / (50 + 2) * modifier)
 
+#Print
 print("CHARIZARD used FIRE BLAST!")
 sleep(0.70)
 print("It's not very effective...")
